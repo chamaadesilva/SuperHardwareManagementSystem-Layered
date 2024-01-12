@@ -6,7 +6,7 @@ import lk.ijse.superHardware.dto.CustomDTO;
 public class QueryDAOImpl implements QueryDAO {
     @Override
     public void customerOrderDetails(CustomDTO customDTO) {
-        //join query
+
 
     }
 }

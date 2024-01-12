@@ -82,7 +82,7 @@ public class PlaceOrderBOImpl implements PlaceOrderBO {
     }
     public static boolean save(String orderId, CartDTO dto) throws SQLException {
         return SQLUtil.execute("INSERT INTO order_item_details(item_stock_code, order_id, ord_quantity)" +
-                "VALUES(?, ?, ?)");
+         "VALUES(?, ?, ?)");
     }
 
 
